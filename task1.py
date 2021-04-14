@@ -132,4 +132,4 @@ def main():
         elif option == "1": 
             pet_list.append(register_new_pet()) 
 
-main()
+#main()
