@@ -123,12 +123,12 @@ def main():
     pet_list = []
     while True:
         display_menu()
-        option = int(input())
-        if option == 3:
+        option = input()
+        if option == "3":
             break
-        elif option == 2: 
+        elif option == "2": 
             retrieve_pet(pet_list)
-        elif option == 1: 
+        elif option == "1": 
             pet_list.append(register_new_pet()) 
 
 main()
