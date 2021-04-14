@@ -124,6 +124,7 @@ def main():
     while True:
         display_menu()
         option = input()
+        print()
         if option == "3":
             break
         elif option == "2": 
